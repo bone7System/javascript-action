@@ -14,6 +14,7 @@ async function run() {
 
     core.setOutput('time', new Date().toTimeString());
      core.setOutput('time', 'zwh----0000111111');
+    core.info(`zwhkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk`);
   } catch (error) {
     core.setFailed(error.message);
   }
